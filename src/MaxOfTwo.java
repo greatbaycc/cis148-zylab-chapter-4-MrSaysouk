@@ -1,8 +1,17 @@
 import java.util.Scanner;
 
 public class MaxOfTwo {
-   
-   /* Type your code here. */
+
+   public int findMax(int num1, int num2) {
+      int max;
+
+      if (num1 > num2) {
+         max = num1;
+      } else {
+         max = num2;
+      }
+      return max;
+   }
    
    public static void main(String args[]) {
       MaxOfTwo maxObject = new MaxOfTwo();

@@ -1,8 +1,8 @@
 # CIS148 zyLAB Assignment
 ## Fall 2022 #
 
-- Name:
-- Date:
+- Name: Tyler Saysouk
+- Date: 5/4/2023
 - Assignment: Chapter 4
   - PRACTICE LABS (Shape Display, 24-hr Time)
   - Remove Gray from RGB

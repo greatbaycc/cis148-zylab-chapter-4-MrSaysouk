@@ -2,7 +2,25 @@ import java.util.Scanner;
 
 public class FunWithCharacters {
 
-   /* Type your code here */
+   public String checkCharacter(String word, int index) {
+      char c = word.charAt(index);
+      String result;
+
+      if (Character.isWhitespace(word.charAt(index))) {
+         result = ("Character '" + c + "' is a white space");
+      }
+      else if (Character.isLetter(word.charAt(index))) {
+         result = ("Character '" + c + "' is a letter");
+      }
+      else if (Character.isDigit(word.charAt(index))) {
+         result = ("Character '" + c + "' is a digit");
+      }
+      else  {
+         result = ("Character '" + c + "' is unknown");
+      }
+
+      return result;
+   }
    
    public static void main(String[] args) {
       

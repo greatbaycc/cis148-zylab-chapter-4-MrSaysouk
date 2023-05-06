@@ -3,7 +3,18 @@ import java.util.Scanner;
 public class LongestString {
    
    public String findLongest(String str1, String str2) {
-       /* Type your code here. */
+      String longest;
+
+      if ((str1.length()) > (str2.length())) {
+         longest = str1;
+      }
+      else if ((str1.length()) == (str2.length())) {
+         longest = str2;
+      }
+      else {
+         longest = str2;
+      }
+      return longest;
    }
    
 

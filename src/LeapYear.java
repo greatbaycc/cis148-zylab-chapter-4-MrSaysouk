@@ -2,13 +2,15 @@ import java.util.Scanner;
 
 public class LeapYear {
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
-        int inputYear;
-        boolean isLeapYear;
+        int year = new Scanner(System.in).nextInt();
 
-        isLeapYear = false;
-        inputYear = scnr.nextInt();
+        boolean isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
 
-        /* Type your code here. */
+        if (isLeapYear) {
+            System.out.println(year + " - leap year");
+        }
+        else {
+            System.out.println(year + " - not a leap year");
+        }
     }
 }
